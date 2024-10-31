@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        url: 'jdbc:postgresql://localhost:15432/insurance_policy?currentSchema=insurance_policy'
+        username: postgres
+        password: admin
+logging:
+    level:
+        'org.hibernate.SQL': DEBUG
+        'org.hibernate.orm.jdbc.bind': TRACE
